@@ -1,0 +1,8 @@
+a=int(input("Enter a number: 78"))
+b=27
+if a>b:
+    print("your guess is greater than secret number")
+elif a<b:
+    print("your guess is less than secret number")
+else:
+    print("your guess is equal to the secret number")
